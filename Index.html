@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="style.css">
+<div class="about">
+    <h1>About</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+        has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+
+<div class="DynamicSection">
+    <h1>Dynamic Users</h1>
+    <table id="users"></table>
+</div>
+
+<div class="wrapper">
+    <div class="content">
+        <h1>CONTACT FORM</h1>
+    </div>
+    <div class="form">
+        <div class="top-form">
+            <div class="inner-form">
+                <div class="label">name</div>
+                <input id="Name" type="text" placeholder="Enter your Name">
+            </div>
+            <div class="inner-form">
+                <div class="label">email</div>
+                <input id="Email" type="email" placeholder="Example@gmail.com">
+            </div>
+            <div class="inner-form">
+                <div class="label">phone</div>
+                <input id="Phone" type="number" placeholder="1234567890">
+            </div>
+        </div>
+        <div class="bottom-form">
+            <div class="inner-form">
+                <div class="label">message</div>
+                <textarea id="Message" placeholder="Your message"></textarea>
+            </div>
+        </div>
+        <button class="btn" onclick="onSubmitForm()">Send</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
